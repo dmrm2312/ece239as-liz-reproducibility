@@ -42,7 +42,7 @@ Once a subset of the data has been created using the preprocessing notebook, we 
 ```python
 df = pd.read_parquet("./superhost_5percent.parquet")
 ```
-After cell two of the `training.ipynb` file has run, inspect your dataset to ensure that the parquet file was properly loaded, the dimentions should be `N (row) x 65546 (column)` where N is the number of Super-host's scanned within the datasub set.
+After cell two of the `training.ipynb` file has run, inspect your dataset to ensure that the parquet file was properly loaded, the dimentions should be `N (row) x 65547 (column)` where N is the number of Super-host's scanned within the datasub set.
 
 After the dataset has been loaded, the following code cell block will create the addtionally engineered features based of the available metadata. To tune the bucket size of the model, meaning to change size of the uniform divisions of the port space, only a single line of code needs to be modified in the 3rd cell of the `training.ipynb` notebook.
 
@@ -54,6 +54,8 @@ After this cell block, all remaining cells can be run without additional code mo
 
 ![Alt text](distribution.png)
 ![Alt text](histogram.png)
+![Alt text](tcpvsudp.png)
+![Alt text](servicetoport.png)
 ![Alt text](heatmap.png)
 ![Alt text](threshold.png)
 ![Alt text](co_heatmap.png)
