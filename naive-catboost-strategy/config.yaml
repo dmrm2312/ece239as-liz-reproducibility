@@ -1,12 +1,9 @@
 # config.yaml
-# train_path: ./mini_superhost_train.parquet
-# val_path: ./mini_superhost_val.parquet
-# test_path: ./mini_superhost_test.parquet
+# This file contains the configuration for the CatBoost model training and evaluation.
 
 train_path: ./processed/test_superhost_unpadded.parquet
 val_path: ./processed/val_superhost_unpadded.parquet
 test_path: ./processed/train_superhost_unpadded.parquet
-# full_eval_path: ./processed/full_eval_superhost_unpadded.parquet
 
 feature_columns:
   - location_country_code_encoded

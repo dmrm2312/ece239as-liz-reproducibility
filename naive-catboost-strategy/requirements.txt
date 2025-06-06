@@ -1,0 +1,11 @@
+pandas
+numpy
+matplotlib
+optuna
+catboost
+scikit-learn
+pyyaml
+tqdm
+python-dotenv
+requests
+psycopg2
