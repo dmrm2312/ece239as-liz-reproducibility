@@ -8,6 +8,8 @@ https://ucla.app.box.com/s/yg4rdlz5arpn3jkz6dgdhekj2f3wmrjp
 
 The dataset will need to be stored in a subfolder of your working directory called "dataset" before your are able to preprocess the data for model training and evaluation.
 
+This folder will be hosted till 6/15/25
+
 ## How to use the scripts:
 First install the required python packages to your local environment using the following command in terminal:
 ```
