@@ -6,7 +6,7 @@ This project explores a naive classification strategy using CatBoost to predict 
 - **Tested on**: Ubuntu system with NVIDIA RTX Titan (24GB VRAM)
 - **VRAM usage**: Training on full datasets may exceed VRAM limits on smaller GPUs.
 
-## 📂 Directory Structure
+## Directory Structure
 
 ```bash
 ├── encodings/                  # Mapping JSONs + rare label lists (e.g. OTHER.txt)
