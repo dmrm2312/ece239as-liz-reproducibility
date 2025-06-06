@@ -44,7 +44,7 @@ In addition, the `figures/` directory includes code and images used in static da
 
 ---
 
-## 🔧 Getting Started
+## Getting Started
 
 Install all dependencies:
 
@@ -56,7 +56,7 @@ pip install -r requirements.txt
 
 ---
 
-## 🧪 Reproducing Results
+## Reproducing Results
 
 ### 1. Run the Bucket Model
 
