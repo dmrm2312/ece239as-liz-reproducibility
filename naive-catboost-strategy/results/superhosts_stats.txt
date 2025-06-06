@@ -1,0 +1,7 @@
+Dataset Statistics:
+-------------------
+Total unique IPv4 hosts: 618487
+Average number of ports per host: 1.00
+Standard deviation of ports per host: 0.00
+Minimum number of ports on a host: 1
+Maximum number of ports on a host: 1

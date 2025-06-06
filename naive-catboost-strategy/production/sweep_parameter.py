@@ -10,6 +10,7 @@ from catboost import CatBoostClassifier
 from sklearn.metrics import accuracy_score, f1_score, log_loss
 from sklearn.model_selection import train_test_split
 from text2 import send_telegram as sendText
+import matplotlib.pyplot as plt
 
 
 def load_config(yaml_path="config.yaml"):
@@ -112,7 +113,6 @@ def run_sweep():
             recent = all_trials[all_trials['timestamp'] > cutoff]
 
             # Plot recent scores
-            import matplotlib.pyplot as plt
             plt.figure(figsize=(10, 4))
             plt.plot(recent['timestamp'], recent['score'], marker='o', label="All Scores")
             if not recent.empty:
@@ -141,7 +141,7 @@ def run_sweep():
         return final_score
 
     try:
-        print("🚀 Starting hyperparameter sweep with resume support...")
+        print("Starting hyperparameter sweep with resume support...")
         storage_path = "sqlite:///results/optuna_study.db"
         study_name = "catboost_sweep"
 

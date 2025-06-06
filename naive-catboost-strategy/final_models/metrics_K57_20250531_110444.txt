@@ -1,0 +1,13 @@
+Model K=57 - Trained on 20250531_110444
+Duration: 474.61 seconds
+Overall Accuracy: 0.7371
+Overall F1: 0.6944
+Precision@1: 0.0038
+Recall@1: 0.0038
+F1@1: 0.0038
+Precision@5: 0.0048
+Recall@5: 0.0075
+F1@5: 0.0059
+Precision@30: 0.0106
+Recall@30: 0.1169
+F1@30: 0.0194
