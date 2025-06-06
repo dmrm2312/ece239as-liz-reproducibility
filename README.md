@@ -39,7 +39,7 @@ In addition, the `figures/` directory includes code and images used in static da
 ├── LICENSE
 ├── sample.env
 ├── requirements.txt
-└── README.md                   # (This file)
+└── README.md                   
 ```
 
 ---
